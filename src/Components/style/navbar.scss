@@ -6,6 +6,7 @@
     background: #fff;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
     .header-content {
+        
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -130,7 +131,7 @@
   
  .click{
     display: block !important;
-    position: absolute;
+    position: fixed;
     top: 30px;
     background-color: rgb(255, 255, 255);
     right: 20px;
@@ -145,7 +146,7 @@
 }
 .clicked{
     display: block !important;
-    position: absolute;
+    position: fixed;
     border: none;
     top: 32px;
     background-color: rgb(135, 7, 240);
