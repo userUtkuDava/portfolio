@@ -20,3 +20,35 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.heading-content {
+    margin-bottom: 9rem;
+
+}
+
+/* SAYFA BAŞLIKLARI */
+.title {
+    display: block;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative;
+    color: #111;
+    margin-top: 180px;
+}
+
+/* baslik vurgu */
+.title::After {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    height: 5px;
+    width: 3rem;
+    background: #7843E9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
