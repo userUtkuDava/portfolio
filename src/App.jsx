@@ -3,6 +3,9 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import HomeHero from './Components/HomeHero'
 import About from './Components/About'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import $ from 'jquery';
 function App() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
