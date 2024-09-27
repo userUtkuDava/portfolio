@@ -6,6 +6,7 @@ import About from './Components/About'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import $ from 'jquery';
+import Project from './Components/Project';
 function App() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -27,6 +28,7 @@ function App() {
         <Navbar />
         <HomeHero />
         <About />
+        <Project />
       </div>
     </>
   )

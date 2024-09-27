@@ -135,25 +135,7 @@
   text-align: center;
 }
 
-.btns--bg {
-  padding: 1.5rem 8rem;
-  font-size: 2rem;
-  padding: 1.2rem 7rem;
-  font-size: 1.5rem;
-}
 
-.btns {
-  background: #7843E9;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  display: inline-block;
-  font-weight: 700;
-  border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-  transition: transform .3s;
-  margin-bottom: 200px;
-}
 
 .home-hero__social {
   width: 5rem;
@@ -174,7 +156,7 @@
 @media screen and (max-width: 992px) {
   .home-hero__socials {
     position: absolute;
-    top: 90%;
+    top: 100%;
     transform: translateY(-50%);
     background: #cecece1e;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

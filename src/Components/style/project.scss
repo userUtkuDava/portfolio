@@ -1,0 +1,40 @@
+@import 'about.scss'; // @import kullanırken
+.project{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    z-index:99;
+    background-color: white;
+}
+.project-img{
+  height: auto;
+  max-height: 350px;
+  float: right;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.project-detail{
+    padding: 3rem;
+}
+.project-detail-description{
+    font-size: 1rem;
+    color: #666;
+    max-width: 60rem;
+    line-height: 1.7;
+}
+.project-detail-btn:hover{
+    transform: translateY(-3px);
+}
+.vurgu{
+    color:$primaryColor;
+    font-weight: 900;
+    
+}
+.vurgu2{
+    color:gray;
+    font-weight: 100;
+    font-size: 16px;
+    
+}

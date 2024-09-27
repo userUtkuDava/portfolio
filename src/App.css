@@ -21,12 +21,51 @@ body {
     flex-direction: column;
 }
 
+.btns--bg {
+    padding: 1.5rem 8rem;
+    font-size: 2rem;
+    padding: 1.2rem 7rem;
+    font-size: 1.5rem;
+}
+
+.btns--md {
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    margin-top: 20px;
+}
+
+.btns {
+    background: #7843E9;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform .3s;
+    margin-bottom: 200px;
+    border: none;
+    text-decoration: none;
+
+}
 
 
 /* SAYFA BAŞLIKLARI */
 .heading-content {
     margin-bottom: 9rem;
 
+}
+
+.heading-sec-sub {
+    display: block;
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    font-weight: 500;
+    max-width: 40rem;
+    margin: auto;
+    line-height: 1.6;
 }
 
 .title {
