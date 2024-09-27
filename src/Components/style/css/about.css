@@ -4,11 +4,9 @@
   background-color: #fafafa;
   z-index: 3;
 }
-
 .about .about-content {
   margin-bottom: 100px;
 }
-
 .about .heading-sec-sub {
   display: block;
   text-align: center;
@@ -19,13 +17,11 @@
   margin: auto;
   line-height: 1.6;
 }
-
 .about .about-content-title {
   font-weight: 700;
   font-size: 1.6rem;
   margin-bottom: 3rem;
 }
-
 .about .paragraf {
   font-size: 1.1rem;
   color: #666;
@@ -33,21 +29,17 @@
   line-height: 1.7;
   margin-bottom: 1rem;
 }
-
 .about .skils-title {
   font-weight: 700;
 }
-
 .about .v-title {
   font-weight: 700;
   color: #00c0f0;
 }
-
 .about .skils {
   display: flex;
   flex-wrap: wrap;
 }
-
 .about .skils .skills__skill {
   padding: 0.5rem 1rem;
   margin-bottom: 1.5rem;
@@ -59,7 +51,6 @@
   font-weight: 600;
   cursor: pointer;
 }
-
 .about .highlight {
   transition: all 1.3s;
   color: #00c0f0;
