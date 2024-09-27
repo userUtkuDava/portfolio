@@ -70,6 +70,7 @@
 
 .header .header-content .header-main .header__link:hover {
   color: #7843E9;
+
 }
 
 .header .header-sm-menu {
@@ -82,10 +83,12 @@
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 .header .header-sm-menu .header__sm-menu-link:first-child a {
   border-top: 1px solid #eee;
+
 }
 
 @media screen and (max-width: 992px) {
@@ -102,12 +105,16 @@
     padding: 2.5rem 3rem;
     font-size: 1rem;
     color: #333;
-    text-align: right;
+    text-align: center;
     border-bottom: 1px solid #eee;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: color 0.3s;
+  }
+
+  .header__sm-menu-link {
+    list-style: none;
   }
 
   .header__sm-menu-link a:hover {

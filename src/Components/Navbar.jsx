@@ -37,7 +37,7 @@ const Navbar = () => {
 
                     </div>
                 </div>
-                <div className={`button ${isClicked ? 'header-sm-menu' : 'header-sm-menu-close'}`}>
+                <div className={`button ${isClicked ? 'header-sm-menu-close' : 'header-sm-menu'}`}>
                     <ul className="header__sm-menu-links">
                         <li className="header__sm-menu-link">
                             <a href="./"> Home </a>
