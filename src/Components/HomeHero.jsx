@@ -11,12 +11,12 @@ const HomeHero = () => {
                 <h1 className='heading-primary'>
                     Merhaba, ben Utku Dava</h1>
                 <div className='info'>
-                    <p className='text-primary'>
+                    <p className='texting-primary'>
                         Genel ürünün başarısına yol açan Web Sitelerini ve Web Uygulamalarını oluşturan ve yöneten Sonuç Odaklı bir Web Geliştiricisi
                     </p>
                 </div>
                 <div className='home-hero__cta'>
-                    <a href="./#projects" class="btn btn--bg">Projects</a>
+                    <a href="./#projects" class="btns btns--bg">Projects</a>
 
                 </div>
             </div>

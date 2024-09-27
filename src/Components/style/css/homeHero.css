@@ -33,7 +33,7 @@
   max-width: 80rem;
 }
 
-.text-primary {
+.texting-primary {
   color: #333;
   font-size: 2.2rem;
   font-size: 1.2rem;
@@ -47,14 +47,14 @@
   text-align: center;
 }
 
-.btn--bg {
+.btns--bg {
   padding: 1.5rem 8rem;
   font-size: 2rem;
   padding: 1.2rem 7rem;
   font-size: 1.5rem;
 }
 
-.btn {
+.btns {
   background: #7843E9;
   color: #fff;
   text-transform: uppercase;
