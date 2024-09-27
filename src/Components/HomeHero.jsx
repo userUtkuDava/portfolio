@@ -33,7 +33,11 @@ const HomeHero = () => {
                 </div>
 
             </div>
-            <div className='home-hero__mouse-scroll-cont'></div>
+            <div className='home-hero__mouse-scroll-cont'>
+                <div className='mouse'>
+
+                </div>
+            </div>
 
         </section>
     )
