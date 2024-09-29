@@ -1,4 +1,4 @@
-@import 'about.scss'; // @import kullanırken
+
 .project{
     width: 100%;
     height: auto;
@@ -28,7 +28,7 @@
     transform: translateY(-3px);
 }
 .vurgu{
-    color:$primaryColor;
+    color:var(--secondaryColor);
     font-weight: 900;
     
 }

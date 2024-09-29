@@ -24,7 +24,7 @@
 }
 .about .v-title {
   font-weight: 700;
-  color: #00c0f0;
+  color: var(--primaryColor);
 }
 .about .skils {
   display: flex;
@@ -35,14 +35,15 @@
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
   font-size: 1.1rem;
-  background: #00c0f0;
+  background: var(--primaryColor);
   color: white;
   border-radius: 5px;
   font-weight: 600;
+  opacity: 0.7;
   cursor: pointer;
 }
 .about .highlight {
   transition: all 1.3s;
-  color: #00c0f0;
+  color: var(--primaryColor);
   font-size: 1.4rem;
 }

@@ -52,10 +52,10 @@ font-size: 16px;
     padding: 1rem 2rem;
     font-size: 1.2rem;
 }.btn--theme {
-    background: #7843E9;
+    background: var(--primaryColor);
     color: hsl(0, 0%, 100%);
 }.btn:hover {
-    background-color:  #7843E9 !important;
+    background-color:var(--primaryColor) !important;
     transform: translateY(-3px);
 }
 @media only screen and (max-width: 37.5em) {

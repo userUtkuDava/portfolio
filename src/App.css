@@ -5,6 +5,11 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --primaryColor: #0071f3;
+    --secondaryColor: orange;
+}
+
 body {
     background-color: gray;
     box-sizing: border-box;
@@ -35,7 +40,7 @@ body {
 }
 
 .btns {
-    background: #7843E9;
+    background: var(--primaryColor);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -88,7 +93,7 @@ body {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #7843E9;
+    background: var(--secondaryColor);
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
