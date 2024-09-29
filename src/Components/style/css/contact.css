@@ -6,6 +6,7 @@
   min-height: 100vh;
   position: relative;
   padding-bottom: 5rem;
+  z-index: 3;
 }
 
 .contact-form-container {
