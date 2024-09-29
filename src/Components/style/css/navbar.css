@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  padding: 0rem 5rem;
 }
 .header .header-content .header-logo-container {
   display: flex;
@@ -136,6 +136,9 @@
     color: white;
     border-radius: 5px;
     transition: all 0.3s;
+  }
+  .header-content {
+    padding: 1rem 5rem !important;
   }
 }
 .header-sm-menu-close {
