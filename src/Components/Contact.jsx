@@ -86,9 +86,13 @@ const Contact = () => {
                             placeholder="Mesajınızı Giriniz"
                         ></textarea>
                     </div>
+                    <div className="from-alert-container">
+                        <p className='text-dark text-center p-3 text-4xl font-bold'>Deneme asdsadsda asdasd dsd d s</p>
+                    </div>
                     <button type="submit" className="btn btn--theme contact__btn">
                         Gönder
                     </button>
+
                 </form>
             </div>
         </section>
