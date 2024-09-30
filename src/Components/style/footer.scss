@@ -4,13 +4,17 @@
     height: auto;
      min-height: 20px;
     color:white;
+     padding-bottom:20px ;
 }
 .footer-content{
   padding: 3rem 2rem;
  
 }
 .footer-info{
-
+  h3{
+    font-size: 32px;
+    padding:20px 0px;
+  }
 }.footer-info-text{
     width: 35rem;
     
@@ -18,10 +22,14 @@
 .footer-cizgi{
 color: white;
 }
+.footer-social-title{
+  font-size: 32px;
+  padding:10px 0px;
+}
 .footer-social-title::after{
     content: '';
     position: absolute;
-    margin:10px 20px;
+    margin:25px 20px;
     height: 5px;
     width: 3rem;
     background: var(--secondaryColor);

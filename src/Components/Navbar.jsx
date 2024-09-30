@@ -22,16 +22,16 @@ const Navbar = () => {
                     <div className='header-main'>
                         <ul className="header__links">
                             <li className="header__link-wrapper">
-                                <a href="./" className="header__link"> Home </a>
+                                <a href="./" className="header__link"> Ansayfa </a>
                             </li>
                             <li className="header__link-wrapper">
-                                <a href="./#about" className="header__link">About </a>
+                                <a href="./#about" className="header__link">Hakkımda </a>
                             </li>
                             <li className="header__link-wrapper">
-                                <a href="./#projects" className="header__link"> Projects </a>
+                                <a href="./#projects" className="header__link"> Projelerim</a>
                             </li>
                             <li className="header__link-wrapper">
-                                <a href="./#contact" className="header__link"> Contact </a>
+                                <a href="./#contact" className="header__link"> İletişim </a>
                             </li>
                         </ul>
 
@@ -40,19 +40,19 @@ const Navbar = () => {
                 <div className={`button ${isClicked ? 'header-sm-menu-close' : 'header-sm-menu'}`}>
                     <ul className="header__sm-menu-links">
                         <li className="header__sm-menu-link">
-                            <a href="./"> Home </a>
+                            <a href="./"> Ansayfa </a>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <a href="./#about"> About </a>
+                            <a href="./#about"> Hakkımda </a>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <a href="./#projects"> Projects </a>
+                            <a href="./#projects"> Projelerim </a>
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <a href="./#contact"> Contact </a>
+                            <a href="./#contact"> iletişim </a>
                         </li>
                     </ul>
                 </div>

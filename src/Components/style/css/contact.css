@@ -16,7 +16,7 @@
   margin-top: 6rem;
   max-width: 50rem;
   text-align: right;
-  width: 95%;
+  width: 50%;
   border-radius: 5px;
   margin: 5rem auto 0 auto;
 }
@@ -68,6 +68,17 @@
 }
 
 @media only screen and (max-width: 37.5em) {
+  .contact-form-container {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: white;
+    padding: 4rem;
+    margin-top: 6rem;
+    max-width: 50rem;
+    text-align: right;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5rem auto 0 auto;
+  }
   .contact__btn {
     width: 100%;
   }

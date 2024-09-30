@@ -1,10 +1,15 @@
 
 .project{
+
     width: 100%;
     height: auto;
     min-height: 100vh;
     z-index:99;
     background-color: white;
+    p{
+        font-size: 1rem;
+        line-height: 3rem;
+    }
 }
 .project-img{
   height: auto;
@@ -28,6 +33,7 @@
     transform: translateY(-3px);
 }
 .vurgu{
+    font-size: xx-large;
     color:var(--secondaryColor);
     font-weight: 900;
     

@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { init, send } from 'emailjs-com';
 import './style/css/contact.css';
-
+import { FcOk } from "react-icons/fc";
 init('eTl4ZNMpGlWkf83ld')
 
 const Contact = () => {
+    const [visibility, setVisibility] = useState('hidden');
+
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -23,11 +26,27 @@ const Contact = () => {
         send('service_dlrs0lw', 'template_6j57nn4', formData)
             .then((response) => {
                 console.log('Başarıyla gönderildi!', response.status, response.text);
-                alert('Mesajınız başarıyla gönderildi!');
+                setVisibility('visbility')
+                document.getElementById('alertMessage').innerHTML = `
+                 <div className="flex flex-column items-center">
+                 
+                    <p>Mesajınız Alındı</p>
+                 
+                 </div>
+                `
+
+                setTimeout(() => {
+                    setVisibility('hidden')
+                }, 3000); // 3 saniye bekler
             })
             .catch((err) => {
                 console.error('Gönderim hatası:', err);
-                alert('Mesaj gönderiminde bir hata oluştu.');
+                setVisibility('visbility')
+                document.getElementById('alertMessage').innerHTML = "Mesaj gönderiminde hata meydana geldi"
+
+                setTimeout(() => {
+                    setVisibility('hidden')
+                }, 5000); // 5 saniye bekler
             });
 
         // Form verilerini sıfırlama
@@ -44,7 +63,7 @@ const Contact = () => {
                     </div>
                 </h2>
             </div>
-            <div className="container contact-form-container">
+            <div className=" contact-form-container">
                 <form onSubmit={handleSubmit}>
                     <div className="contact__form-field">
                         <label className='contact__form-label' htmlFor="name">İsim</label>
@@ -87,7 +106,9 @@ const Contact = () => {
                         ></textarea>
                     </div>
                     <div className="from-alert-container">
-                        <p className='text-dark text-center p-3 text-4xl font-bold'>Deneme asdsadsda asdasd dsd d s</p>
+                        <p id='alertMessage' className={`${visibility} text-black font-medium text-base bg-gray-200 text-dark text-center p-3 rounded mb-4 shadow-sm`}>
+
+                        </p>
                     </div>
                     <button type="submit" className="btn btn--theme contact__btn">
                         Gönder

@@ -5,6 +5,8 @@ import logoLinkedin from '../images/linkedinİconSB.png';
 import logoGithub from '../images/githubİconSB.png';
 
 const HomeHero = () => {
+
+
     // Renk değiştirme fonksiyonu
     const changeThemaRed = () => {
         document.documentElement.style.setProperty('--primaryColor', '#ff0000'); // Yeni renk
@@ -33,7 +35,7 @@ const HomeHero = () => {
                     <a href="./#projects" className="btns btns--bg">Projects</a>
                 </div>
             </div>
-            <div className='home-hero__socials'>
+            <div className='home-hero__socials ' id='socials'>
                 <div className="home-hero__social">
                     <a href="https://github.com/userUtkuDava" className="home-hero__social-icon-link" rel="noreferrer" target="_blank">
                         <img src={logoGithub} alt="Utku Dava Github Profil" className="home-hero__social-icon" />

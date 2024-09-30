@@ -22,9 +22,9 @@ const Project = () => {
                             </img>
                         </div>
                         <div className='project-detail col-md-6'>
-                            <h1 className='mb-2'>
-                                <span className='vurgu'>Portfolio</span> Site <span className='vurgu2'>(kurumsal)</span>
-                            </h1>
+
+                            <span className='vurgu'>Portfolio</span> Site <span className='vurgu2'>(kurumsal)</span>
+
                             <p className='project-detail-description'>
                                 Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally
                             </p>
@@ -37,9 +37,9 @@ const Project = () => {
                             </img>
                         </div>
                         <div className='project-detail col-md-6'>
-                            <h1 className='mb-2'>
-                                <span className='vurgu'>Portfolio</span> Site <span className='vurgu2'>(kurumsal)</span>
-                            </h1>
+
+                            <span className='vurgu'>Portfolio</span> Site <span className='vurgu2'>(kurumsal)</span>
+
                             <p className='project-detail-description'>
                                 Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally
                             </p>
@@ -52,9 +52,9 @@ const Project = () => {
                             </img>
                         </div>
                         <div className='project-detail col-md-6'>
-                            <h1 className='mb-2'>
-                                <span className='vurgu'>Portfolio</span> Site <span className='vurgu2'>(kurumsal)</span>
-                            </h1>
+
+                            <span className='vurgu'>Portfolio</span> Site <span className='vurgu2'>(kurumsal)</span>
+
                             <p className='project-detail-description'>
                                 Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally
                             </p>
