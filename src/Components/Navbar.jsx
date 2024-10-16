@@ -31,7 +31,8 @@ const Navbar = () => {
                                 <a href="./#projects" className="header__link"> Projelerim</a>
                             </li>
                             <li className="header__link-wrapper">
-                                <a href="./#contact" className="header__link"> İletişim </a>
+                                <a href="./#contact" className="header__link"> İletişim
+                                 </a>
                             </li>
                         </ul>
 
