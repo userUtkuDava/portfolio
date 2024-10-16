@@ -18,13 +18,20 @@ const Footer = () => {
                     <h5 className='footer-social-title'> Sosyal Ağ</h5>
                     <div className="footer-social-icons d-flex flex-row">
                         <div className="footer-logo footer-logo-linkedin">
-                            <img src={logoLinkedin} alt='Utku Dava LinkedIn' />
+                            <a href='https://www.linkedin.com/in/utku-dava-763548245/' target='_blank' rel='noopener noreferrer'>
+                                <img src={logoLinkedin} alt='Utku Dava LinkedIn' />
+                            </a>
                         </div>
                         <div className="footer-logo footer-logo-github">
-                            <img src={logoGithub} alt='Utku Dava GitHub' />
+                            <a href='https://github.com/userUtkuDava ' target='_blank' rel='noopener noreferrer'>
+
+                                <img src={logoGithub} alt='Utku Dava GitHub' />
+                            </a>
                         </div>
                         <div className="footer-logo footer-logo-whatsapp">
-                            <img src={logoWhatsapp} alt='Utku Dava WhatsApp' />
+                            <a href='https://wa.me/05442348908' target='_blank' rel='noopener noreferrer'>
+                                <img src={logoWhatsapp} alt='Utku Dava WhatsApp' />
+                            </a>
                         </div>
                     </div>
                     <div className='mail'>
