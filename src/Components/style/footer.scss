@@ -40,9 +40,13 @@ color: white;
     height: 50px;
     padding: 10px;
     width: 20rem;
+    display: flex;
+    justify-content: space-around;
     cursor: pointer;
+   
     .footer-logo{
-          
+         
+          width: 50px;
          padding-right: 20px;
     }
    img{
