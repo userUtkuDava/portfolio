@@ -32,7 +32,7 @@ const HomeHero = () => {
                     </p>
                 </div>
                 <div className='home-hero__cta'>
-                    <a href="./#projects" className="btns btns--bg">Projects</a>
+                    <a href="./#projects" className="btns btns--bg">Projelerim</a>
                 </div>
             </div>
             <div className='home-hero__socials ' id='socials'>
