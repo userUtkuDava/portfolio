@@ -48,7 +48,7 @@ const HomeHero = () => {
                     </a>
                 </div>
                 <div className="home-hero__social">
-                    <a href="https://wa.me/05442348908" className="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+                    <a href="https://wa.me/905442348908" className="home-hero__social-icon-link" rel="noreferrer" target="_blank">
                         <img src={logoWhatsapp} alt="Utku Dava Whatsapp" className="home-hero__social-icon" />
                     </a>
                 </div>

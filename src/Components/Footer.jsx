@@ -29,7 +29,7 @@ const Footer = () => {
                             </a>
                         </div>
                         <div className="footer-logo footer-logo-whatsapp">
-                            <a href='https://wa.me/05442348908' target='_blank' rel='noopener noreferrer'>
+                            <a href='https://wa.me/905442348908' target='_blank' rel='noopener noreferrer'>
                                 <img src={logoWhatsapp} alt='Utku Dava WhatsApp' />
                             </a>
                         </div>
